@@ -14,17 +14,32 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #line 1 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
-using MyHourTracker;
+using MyHourTracker.Controllers;
 
 #line default
 #line hidden
 #line 2 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
+using MyHourTracker;
+
+#line default
+#line hidden
+#line 3 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
+using MyHourTracker.ViewModels;
+
+#line default
+#line hidden
+#line 4 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
+using MyHourTracker.Data.Entities;
+
+#line default
+#line hidden
+#line 5 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
 using MyHourTracker.Models;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3b688a19e350a9d4d3a27df6e9d3f2f7e7dce328", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1511480a7126427002c1618cd4b0b82d4bb45cf3", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

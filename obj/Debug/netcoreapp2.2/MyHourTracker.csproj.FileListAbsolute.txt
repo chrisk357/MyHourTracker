@@ -30,3 +30,4 @@ C:\Users\chris\source\repos\MyHourTracker\obj\Debug\netcoreapp2.2\MyHourTracker.
 C:\Users\chris\source\repos\MyHourTracker\obj\Debug\netcoreapp2.2\MyHourTracker.dll
 C:\Users\chris\source\repos\MyHourTracker\obj\Debug\netcoreapp2.2\MyHourTracker.pdb
 C:\Users\chris\source\repos\MyHourTracker\obj\Debug\netcoreapp2.2\MyHourTracker.csproj.CopyComplete
+C:\Users\chris\source\repos\MyHourTracker\obj\Debug\netcoreapp2.2\Razor\Views\Home\ViewTimeCard.g.cshtml.cs
