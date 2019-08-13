@@ -24,22 +24,17 @@ using MyHourTracker;
 #line default
 #line hidden
 #line 3 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
-using MyHourTracker.ViewModels;
-
-#line default
-#line hidden
-#line 4 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
 using MyHourTracker.Data.Entities;
 
 #line default
 #line hidden
-#line 5 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
 using MyHourTracker.Models;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1511480a7126427002c1618cd4b0b82d4bb45cf3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b3ab552db0b39ce88192e3ec630f8ee7bd2061ab", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

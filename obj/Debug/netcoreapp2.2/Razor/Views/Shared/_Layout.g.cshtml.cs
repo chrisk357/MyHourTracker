@@ -24,22 +24,17 @@ using MyHourTracker;
 #line default
 #line hidden
 #line 3 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
-using MyHourTracker.ViewModels;
-
-#line default
-#line hidden
-#line 4 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
 using MyHourTracker.Data.Entities;
 
 #line default
 #line hidden
-#line 5 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\chris\source\repos\MyHourTracker\Views\_ViewImports.cshtml"
 using MyHourTracker.Models;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c75a4dc1e08666344bb3b4dbffa97ff80bb4920", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1511480a7126427002c1618cd4b0b82d4bb45cf3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b3ab552db0b39ce88192e3ec630f8ee7bd2061ab", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -106,7 +101,7 @@ using MyHourTracker.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 888, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492015177", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492015034", async() => {
                 BeginContext(31, 121, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
                 EndContext();
@@ -121,12 +116,12 @@ using MyHourTracker.Models;
                 WriteLiteral(" - MyHourTracker</title>\r\n\r\n    ");
                 EndContext();
                 BeginContext(202, 136, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492016061", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492015918", async() => {
                     BeginContext(237, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(247, 71, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492016479", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492016336", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -162,12 +157,12 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(344, 507, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492018971", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492018828", async() => {
                     BeginContext(379, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(389, 442, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492019390", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492019247", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper>();
@@ -214,7 +209,7 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(857, 47, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492023049", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492022906", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -248,12 +243,12 @@ using MyHourTracker.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(915, 2911, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492025180", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492025037", async() => {
                 BeginContext(921, 189, true);
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
                 EndContext();
                 BeginContext(1110, 94, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492025762", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492025619", async() => {
                     BeginContext(1187, 13, true);
                     WriteLiteral("MyHourTracker");
                     EndContext();
@@ -286,7 +281,7 @@ using MyHourTracker.Models;
                     ");
                 EndContext();
                 BeginContext(1643, 32, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492028203", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492028060", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -305,7 +300,7 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n                    <ul class=\"navbar-nav flex-grow-1\">\r\n                        <li class=\"nav-item\">\r\n                            ");
                 EndContext();
                 BeginContext(1809, 91, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492029680", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492029537", async() => {
                     BeginContext(1892, 4, true);
                     WriteLiteral("Home");
                     EndContext();
@@ -332,7 +327,7 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\">\r\n                            ");
                 EndContext();
                 BeginContext(2008, 96, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492031769", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492031626", async() => {
                     BeginContext(2093, 7, true);
                     WriteLiteral("Privacy");
                     EndContext();
@@ -359,7 +354,7 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </nav>\r\n    </header>\r\n    <div class=\"container\">\r\n        ");
                 EndContext();
                 BeginContext(2276, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492033935", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492033792", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -388,7 +383,7 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer class=\"border-top footer text-muted\">\r\n        <div class=\"container\">\r\n            &copy; 2019 - MyHourTracker - ");
                 EndContext();
                 BeginContext(2543, 69, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492035840", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492035697", async() => {
                     BeginContext(2601, 7, true);
                     WriteLiteral("Privacy");
                     EndContext();
@@ -414,12 +409,12 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n        </div>\r\n    </footer>\r\n\r\n    ");
                 EndContext();
                 BeginContext(2651, 193, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492037775", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492037632", async() => {
                     BeginContext(2686, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(2696, 51, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492038195", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492038052", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -437,7 +432,7 @@ using MyHourTracker.Models;
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(2757, 67, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492039529", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492039386", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -472,12 +467,12 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(2850, 849, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492041942", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492041799", async() => {
                     BeginContext(2885, 10, true);
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(2895, 340, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492042363", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492042220", async() => {
                         BeginContext(3216, 10, true);
                         WriteLiteral("\r\n        ");
                         EndContext();
@@ -505,7 +500,7 @@ using MyHourTracker.Models;
                     WriteLiteral("\r\n        ");
                     EndContext();
                     BeginContext(3245, 434, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492044577", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492044434", async() => {
                         BeginContext(3660, 10, true);
                         WriteLiteral("\r\n        ");
                         EndContext();
@@ -550,7 +545,7 @@ using MyHourTracker.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(3705, 62, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492047870", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c75a4dc1e08666344bb3b4dbffa97ff80bb492047727", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
